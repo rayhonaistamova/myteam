@@ -1,0 +1,60 @@
+.get{
+    background-color: #F67E7E;
+    padding: 76px 0;
+    position: relative;
+}
+.get__img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.nav{
+    display: flex; 
+}
+.get__body{
+    @include important;
+}
+.get__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #012F34;
+    margin-left: 65px;
+}
+.get__link{
+    @include btn;
+    border: 2px solid #012F34;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012F34;
+}
+@media screen and (max-width: 768px) {
+    .get{
+        padding: 84px 0;
+    }
+    .get__img{
+        width: 150px;
+    }
+    .get__body{
+        text-align: center;
+    }
+    .get__title{
+        font-size: 32px;
+        line-height: 32px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .get__body{
+        flex-direction: column;
+        text-align: center;
+    }
+    .get__title{
+        margin-bottom: 24px;
+        margin-left: 3px;
+    }
+}

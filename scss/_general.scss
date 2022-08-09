@@ -1,0 +1,40 @@
+// general
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li,
+a,
+button,
+input,
+textarea,
+select,
+option{
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: none;
+}
+body{
+    font-family: 'Livvic';
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+@mixin btn {
+    padding: 10px 30px;
+    border-radius: 24px;
+}
+@mixin important {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+$text_color: #FFFFFF;
