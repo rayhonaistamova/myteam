@@ -1,0 +1,115 @@
+.contact{
+    background: #014E56;
+    padding: 120px 0;
+    position: relative;
+}
+.contact::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 200px;
+    background-image: url(/img/20.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+.contact__body{
+    @include important;
+}
+.contact__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: $text_color;
+}
+.contact__text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #F67E7E;
+}
+.contact__list{
+    margin-top: 30px;
+}
+.contact__items{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    margin-top: 10px;
+}
+.contact__description{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: $text_color;
+}
+form{
+    width: 540px;
+    height: 350px;
+}
+.contact__input{
+    width: 540px;
+    height: 42px;
+    border-bottom: 3px solid #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.115385px;   
+    color: $text_color;    
+    mix-blend-mode: normal;
+    margin-bottom: 30px;
+}
+.contact__textarea{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.115385px;   
+    color: $text_color;    
+    mix-blend-mode: normal;
+    width: 540px;
+    height: 85px;
+    border-bottom: 3px solid #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+   .contact__body{
+        flex-direction: column;
+        text-align: center;
+   } 
+   .contact__left{
+        margin-bottom: 65px;  
+   }
+}
+@media screen and (max-width: 375px) {
+    .contact::before{
+        display: none;
+    }
+    .contact__title{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .contact__text{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .contact__description{
+        max-width: 232px;
+        text-align: start;
+    }
+    form{
+        width: 327px;
+        height: 420px;
+    }
+    .contact__input{
+        width: 325px;
+        height: 42px;   
+    }
+    .contact__textarea{
+        width: 325px;
+        height: 42px;  
+    }
+}
