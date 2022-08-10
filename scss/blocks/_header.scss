@@ -21,6 +21,9 @@ header{
     line-height: 28px;
     color: $text_color;
 }
+.nav__link:active{
+    color: #F67E7E
+}
 .header__btn{
     @include btn;
     font-style: normal;
@@ -29,6 +32,10 @@ header{
     line-height: 28px;
     color: $text_color;
     border: 2px solid #FFFFFF;
+}
+.header__btn:active{
+    background-color: #fff;
+    color: #002529;
 }
 .header__menu{
     display: none;

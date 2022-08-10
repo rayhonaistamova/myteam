@@ -31,6 +31,10 @@
     line-height: 28px;
     color: #012F34;
 }
+.get__link:active{
+    background-color: #012F34;
+    color: #FFFFFF 
+}
 @media screen and (max-width: 768px) {
     .get{
         padding: 84px 0;

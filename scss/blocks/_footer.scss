@@ -17,6 +17,9 @@ footer{
     margin-right: 40px;
     margin-top: 25px;
 }
+.footer__link:active{
+    color: #F67E7E;
+}
 .footer__links{
     font-style: normal;
     font-weight: 600;
@@ -35,6 +38,9 @@ footer{
 .bx{
     font-size: 25px;
     color: $text_color;
+}
+.bx:active{
+    color: #F67E7E;
 }
 .footer__text{
     font-style: normal;
