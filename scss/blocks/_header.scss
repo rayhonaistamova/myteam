@@ -40,13 +40,13 @@ header{
 .header__menu{
     display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     header{
         padding: 64px 40px;
     }
     
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
     header{
         padding: 48px 24px;
     }

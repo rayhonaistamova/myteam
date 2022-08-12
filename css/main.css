@@ -86,12 +86,12 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   header {
     padding: 64px 40px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   header {
     padding: 48px 24px;
   }
@@ -174,7 +174,7 @@ header {
   color: #F67E7E;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .hero__img {
     display: none;
   }
@@ -191,7 +191,7 @@ header {
     display: none;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .hero__title {
     font-size: 40px;
     line-height: 40px;
@@ -267,7 +267,7 @@ header {
   max-width: 445px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .team__body {
     flex-direction: column;
   }
@@ -284,7 +284,7 @@ header {
     top: 0;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .team {
     padding: 65px 0;
   }
@@ -371,7 +371,7 @@ header {
   margin-left: 140px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .stories__title {
     font-size: 32px;
     line-height: 32px;
@@ -388,7 +388,7 @@ header {
     margin-left: 250px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .stories__title {
     max-width: 327px;
     margin: 0 auto;
@@ -450,7 +450,7 @@ header {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .get {
     padding: 84px 0;
   }
@@ -467,7 +467,7 @@ header {
     margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .get__body {
     flex-direction: column;
     text-align: center;
@@ -545,7 +545,7 @@ footer {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   footer {
     padding: 56px 40px;
   }
@@ -577,7 +577,7 @@ footer {
     margin-left: 270px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   footer {
     padding: 66px 24px;
   }
@@ -651,7 +651,7 @@ footer {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .about__body {
     flex-direction: column;
     text-align: center;
@@ -664,7 +664,7 @@ footer {
     display: none;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .about {
     padding: 80px 0;
   }
@@ -714,7 +714,7 @@ footer {
   margin-top: 70px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .clients::before {
     background-image: url(/img/18.svg);
   }
@@ -726,7 +726,7 @@ footer {
     width: 100px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .clients__list {
     flex-direction: column;
     row-gap: 75px;
@@ -811,7 +811,7 @@ footer {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .meet__list {
     padding: 0 60px;
   }
@@ -820,7 +820,7 @@ footer {
     height: 281px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .meet::before {
     background-image: url(/img/23.svg);
   }
@@ -929,7 +929,7 @@ form {
   border-bottom: 3px solid #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .contact__body {
     flex-direction: column;
     text-align: center;
@@ -938,7 +938,7 @@ form {
     margin-bottom: 65px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .contact::before {
     display: none;
   }
