@@ -43,7 +43,7 @@
     color: 
     #F67E7E;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .hero__img{
         display: none;
     }
@@ -60,7 +60,7 @@
         display: none;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
     .hero__title{
         font-size: 40px;
         line-height: 40px;

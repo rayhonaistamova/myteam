@@ -35,7 +35,7 @@
     background-color: #012F34;
     color: #FFFFFF 
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .get{
         padding: 84px 0;
     }
@@ -52,7 +52,7 @@
         margin-bottom: 10px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
     .get__body{
         flex-direction: column;
         text-align: center;

@@ -56,7 +56,7 @@
     margin-left: 140px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .stories__title{
         font-size: 32px;
         line-height: 32px;
@@ -73,7 +73,7 @@
         margin-left: 250px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
     .stories__title{
         max-width: 327px;
         margin: 0 auto;

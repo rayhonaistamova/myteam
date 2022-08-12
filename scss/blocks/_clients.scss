@@ -25,7 +25,7 @@
     @include important;
     margin-top: 70px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .clients::before{
         background-image: url(/img/18.svg);
     }
@@ -37,7 +37,7 @@
         width: 100px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
     .clients__list{
         flex-direction: column;
         row-gap: 75px;
